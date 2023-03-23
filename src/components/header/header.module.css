@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.headerLinks {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.headerLinks:hover {
+  color: rgb(139, 187, 67);
+}

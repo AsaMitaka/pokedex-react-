@@ -1,0 +1,133 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.itemsBlock {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+  padding: 20px;
+}
+
+.itemBtns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.itemBtn {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 150px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+.itemHeader {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.itemImg {
+  width: 75px;
+}
+.itemCost {
+  margin: 10px 0;
+}
+
+.itemCtg {
+}
+
+.itemAttr {
+  margin-top: 10px;
+}
+
+.itemList {
+  padding: 0 5px;
+}
+
+.itemListLi {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+@media only screen and (min-width: 320px) {
+  .itemsBlock {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .itemsBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 641px) {
+  .itemsBlock {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .itemsBlock {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .itemsBlock {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .itemsBlock {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding: 20px;
+  }
+}
